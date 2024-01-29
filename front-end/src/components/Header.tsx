@@ -7,7 +7,7 @@ export default function Header() {
   const [IDEContext, setIDEContext] = useIDE()
   const [loading, setLoading] = useState<boolean>(false);
 
-
+  
   return <Flex w={'100%'} p={'3'} borderBottom={'1px solid'}
     borderColor={'gray.200'} alignItems={'center'} 
   >
@@ -40,9 +40,6 @@ export default function Header() {
         isLoading={loading}
       >
         ✔ Run
-      </Button>
-      <Button size={'md'} variant={'outline'}>
-        Get Started
       </Button>
     </Flex>
   </Flex>

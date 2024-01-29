@@ -100,6 +100,9 @@ export default function MarkDownContent (
                         size={'xs'}
                         aria-label="copy-icon"
                         icon={<CopyIcon />}
+                        onClick={()=> {
+                          navigator.clipboard.writeText(children)
+                        }}
                       />
                     </Flex>
                     <SyntaxHighlighter 

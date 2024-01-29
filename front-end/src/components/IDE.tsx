@@ -214,7 +214,7 @@ int main() {
 ### Credits
 
 - **Zain Ul Din (fa-2020/BSCS/147)**
-
+- **Amara khan (fa-2021/BSCS/359)**
 <br/>
 <br/>
 
