@@ -35,8 +35,4 @@ npx yarn dev
 
 ---
 
-<div align="center">
-
-    Happy Coding ♥
-
-</div>
+<div align="center">Happy Coding ♥</div>
